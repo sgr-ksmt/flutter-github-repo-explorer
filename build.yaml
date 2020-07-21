@@ -1,0 +1,16 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        generate_for:
+          include:
+            - lib/**/*state.dart
+            - lib/**/*controller.dart
+            - lib/models/*.dart
+      json_serializable:
+        generate_for:
+          include:
+            - lib/models/*.dart
+        options:
+          explicit_to_json: true
+          any_map: true
