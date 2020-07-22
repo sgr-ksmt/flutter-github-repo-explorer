@@ -24,7 +24,9 @@ A lot of popular packages are used in the example:
 | ![4](.readme/img4.png) | ![5](.readme/img5.png) | ![6](.readme/img6.png) |
 
 ## TODO
-
+- [ ] Add more examples using river_pod
+  - [ ] Family
+  - [ ] `.autoDispose`
 - [ ] Search
 - [ ] Pagination
 - [ ] Retry handling
